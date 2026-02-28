@@ -1,3 +1,5 @@
+![Results Framework Monitoring Pack](reports/branding/results_framework_monitoring_pack.png)
+
 ## Release Notes (v1.0.0)
 
 ### Overview
@@ -26,3 +28,4 @@ WGYD Results Framework Monitoring Pack is an automated monthly reporting workflo
 **One-command monthly refresh**
 ```powershell
 .\scripts\run_monthly_refresh.ps1 -Month 2025-12
+
