@@ -1,0 +1,34 @@
+﻿# Secrets
+.env
+.env.*
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Data + generated outputs
+data/wgyd_monitoring.sqlite
+data/submissions_raw/
+data/outputs/
+
+# Allow curated examples to be committed
+!reports/example_outputs/
+!reports/example_outputs/**
+
+# Optional: allow curated screenshots too
+!reports/screenshots/
+!reports/screenshots/**
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Logs
+*.log
+
